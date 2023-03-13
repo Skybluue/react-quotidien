@@ -12,3 +12,7 @@ Pour update les dépendances de l'application : npm update
 Enfin : npm install
 
 Pour la gestion des id : npm install uuid
+
+Lancer le serveur : npx json-server db.json
+
+Lancer l'application : npm start
