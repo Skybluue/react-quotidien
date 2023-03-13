@@ -1,0 +1,20 @@
+{
+  "evenements": [
+    {
+      "id": 1,
+      "date": "2023-03-05",
+      "lieu": "Maison",
+      "titre": "Spiderman 1",
+      "importance" : 1,
+      "description": "blablabla"
+    },
+    {
+      "id": 1,
+      "date": "2023-03-15",
+      "lieu": "Parc",
+      "titre": "Sortie",
+      "importance":2,
+      "description": ""
+    }
+  ]
+}
