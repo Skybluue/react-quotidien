@@ -13,6 +13,6 @@ Enfin : npm install
 
 Pour la gestion des id : npm install uuid
 
-Lancer le serveur : npx json-server db.json
+Lancer le serveur dans le dossier api : npx json-server db.json
 
-Lancer l'application : npm start
+Lancer l'application dans le dossier du code quotidien : npm start
