@@ -1,4 +1,6 @@
-Projet en react pour gérer les tâches du quotidien
+Projet en react pour gérer les tâches du quotidien par :
+- DELAGE Adrien
+- KACZMAREK Guillaume
 
 Le dossier node_modules n'est pas ici ; le mettre à jour
 
