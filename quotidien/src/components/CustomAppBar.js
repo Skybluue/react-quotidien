@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CalendarIcon from '@mui/icons-material/CalendarToday';
+import {Link} from 'react-router-dom';
 
-const pages = ['Rendez-vous', 'Anniversaires'];
+const pages = ['Evenements'];
 const settings = ['Options', 'Se déconnecter'];
 
 function CustomAppBar() {
@@ -115,13 +116,13 @@ function CustomAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
+              <Link to="/ajouter" style={{ textDecoration: 'none' }}><Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
-              </Button>
+              </Button></Link>
             ))}
           </Box>
 

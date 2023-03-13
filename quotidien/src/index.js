@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import AddEvent from './components/AddEvent';
 
 const router = createBrowserRouter([
   {path: '/', element:<App/>},
+  {path: '/ajouter', element:<AddEvent/>},
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
